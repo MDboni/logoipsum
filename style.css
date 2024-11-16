@@ -1,0 +1,245 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo{
+    width: 120px;
+    height: 100%;
+}
+
+.btn-nav{
+    border: 1px solid #5f3bed;
+    color: #5f3bed;
+}
+
+.text-bold{
+    font-weight: 400;
+    color: #000;
+}
+.text-bold-active{
+    color: #5f3bed;
+}
+.text-bold:hover{
+    color: #5f3bed;
+}
+
+/* nav end  */
+
+/* hero ariea  */
+
+#hero{
+    background-color: #f5fcff;
+    padding: 100px 0px;
+}
+
+.hero-span{
+    color: #5f3bed;
+}
+.all-p{
+    max-width: 500px;
+    font-size: 18px;
+}
+
+.hero-btn{
+    background-color: #5f3bed;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* expart ariea  */
+.expart{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.expart-hed{
+    padding-bottom: 60px;
+}
+.expart-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 30px !important;
+    
+    
+  }
+  
+  .expart-3 {
+    background-color: #f5fcff;
+    padding: 20px 50px 20px 20px;
+    border-radius: 10px !important;
+  }
+  .expart-1{
+    background-color: #f5fcff;
+    padding: 20px 50px 20px 20px;
+    border-radius: 20px;
+    border-bottom: 2px solid #5f3bed;
+  }
+  .expart-h{
+    font-size: 23px;
+  }
+.expart-img{
+    max-width: 100px;
+    
+}
+
+.expart-p{
+    font-size: 18px;
+}
+
+/* about ariea  */
+
+
+.about-h{
+    padding-bottom: 30px;
+}
+
+.p-button .p-img{
+    width: 30px !important;
+}
+.p-button{
+    border: none;
+    color: white;
+    background-color: #e62770;
+    border-radius: 10px;
+}
+
+/* p-grid  */
+.p-b{
+    text-align: end;
+}
+.protfolio-btn{
+    border: none;
+    background-color: #e62770;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+.protfolio-btn-img{
+    max-width: 30px;
+}
+ .protfolio-m{
+    padding-top: 100px;
+    margin-bottom: 100px;
+ }
+ .protfolio-hed{
+    margin-bottom: 60px;
+ }
+.protfolio-grid{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-gap: 20px;
+}
+
+/* testmpnial ariea  */
+.testmonial{
+    background-color: #f5fcff;
+    padding: 70px 0px;  
+}
+
+.testmonial-h2{
+ padding-top: px;
+}
+
+.testmonial-hed{
+    margin-bottom: 60px;
+}
+
+.testmonial-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 15px;
+    
+}
+.testmonial-content{
+  border: 2px solid #006b69;
+  padding: 30px;
+}
+
+.testmonial-star{
+    width: 160px;
+    padding-bottom: 20px;
+}
+.testmonial-p{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.test-avatar-img{
+    width: 100px;
+    margin-right: 20px;
+}
+
+/* from ariea  */
+.section-form{
+    padding: 100px 0px;
+}
+
+.from{
+    max-width: 800px;
+    margin: auto;
+}
+.btn-primary{
+    background-color: #5f3bed;
+    padding: 10px 30px;
+    transition: 1s;
+}
+.btn-primary:hover{
+
+    background-color: #e62770;
+}
+/* footer ariea  */
+
+.pura-footer{
+    background-color: #f5fcff;
+    padding: 40px 0px;
+}
+.footer-last{
+    
+}
+.f-l{
+    
+    text-align: end;
+}
+
+
+/* mediea ariea  */
+@media screen and (max-width: 576px) {
+    .p-b{
+      text-align: start;
+    }
+    .protfolio-m{
+        padding-top: 0px;
+     }
+     .protfolio-hed{
+        margin-bottom: 20px;
+     }
+     .testmonial-hed{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+   
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
